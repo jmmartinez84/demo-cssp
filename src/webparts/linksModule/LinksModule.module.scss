@@ -1,0 +1,116 @@
+.linksModule {
+  :global .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+  }
+  :global .row {
+    background-color: rgba(238, 238, 238, 1);
+    color:#444;
+    margin: 0 auto;
+    padding: 20px;
+    width:377px;
+  }
+  :global .title{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+  }
+  :global .pixRed{
+    display: block;
+    background: url('img/sprite_article.png')no-repeat -309px -17px;
+    width: 6px;
+    height: 7px;
+    margin: 6px 0 0 6px;
+    float: left;
+  }
+  :global .favoris{
+    float: left;
+    background: url('img/sprite_article.png')no-repeat -248px -3px;
+    width: 23px;
+    height: 21px;
+    margin: 0 6px 0 20px;
+  }
+  :global .titleText{
+    float: left;
+    width:260px;
+  }
+  :global .titleText h5{
+    font:bold 17px Arial, Helvetica, sans-serif;
+    margin: 0 0 5px 15px;
+
+  }
+  :global .titleText h5 a{
+    color:#6d6e71;
+  }
+  :global .reducRub{
+    float: left;
+  }
+  :global .reducRub a{
+    display: inline-block;
+    background: url('img/sprite_article.png')no-repeat -315px -16px;
+    width: 9px;
+    height: 8px;
+    margin-top:8px;
+  }
+  :global .categoryShown{
+    background: url('img/sprite_article.png')no-repeat -315px -16px;
+  }
+  :global .reducRubHide a{
+    cursor: pointer;
+    width: 9px !important;
+    height:3px !important;
+    display: inline-block !important;
+    background-color: rgb(109, 110, 113) !important;
+    background-image: none!important;
+  }
+  :global .flech3{
+    background:url('img/sprite_article.png') no-repeat -315px -16px;
+    float: left;
+    margin:7px 5px 0 6px;
+    width:9px;
+    height: 8px;
+    clear: left;
+  }
+  :global .links{
+    padding-left: 20px;
+  }
+  :global .link{
+    background:url('img/pix_flech3.png') no-repeat  0 6px;
+
+  }
+  :global .link a{
+    color:#000;
+    display: inline-block;
+    max-width: 270px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    outline: none;
+    padding-left: 6px;
+  }
+  :global .category{
+    color:#6d6e71;
+    font-size: 11pt;
+    font-weight: 700;
+  }
+  :global .category h4{
+    margin: 7px auto;
+  }
+  :global .listItem {
+    max-width: 715px;
+    margin: 5px auto 5px auto;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  :global .button {
+    text-decoration: none;
+  }
+}

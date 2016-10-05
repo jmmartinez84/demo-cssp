@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch Chrome against localhost, with sourcemaps",
+      "type": "chrome",
+      "request": "launch",
+      "url": "https://b933072:4321/temp/workbench.html",
+      "sourceMaps": true,
+      "webRoot": "${workspaceRoot}",
+      "runtimeExecutable": "C:\\User\\E437892\\Documents\\chrome-win32\\chrome.exe"
+    },
+    {
+      "name": "Attach to Chrome, with sourcemaps",
+      "type": "chrome",
+      "request": "attach",
+      "port": 9222,
+      "sourceMaps": true,
+      "webRoot": "${workspaceRoot}"
+    }
+  ]
+}

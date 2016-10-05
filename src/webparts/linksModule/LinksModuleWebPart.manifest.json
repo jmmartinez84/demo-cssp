@@ -1,0 +1,19 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "7bc23361-0f01-41a3-8e5f-5e7affbf28bc",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "7bc23361-0f01-41a3-8e5f-5e7affbf28bc",
+    "group": { "default": "Under Development" },
+    "title": { "default": "LinksModule" },
+    "description": { "default": "Portail groupe links module  " },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "LinksModule"
+    }
+  }]
+}

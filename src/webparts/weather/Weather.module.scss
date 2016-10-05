@@ -1,0 +1,72 @@
+.weather {
+  .container {
+    max-width: 700px;
+    min-width: 310px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+  .contentLeft{
+    width: 51%;
+  }
+  .contentRight{
+    width: 48%;
+    min-width: 130px;
+
+  }
+  .row {
+    padding: 20px;
+  }
+
+  .listItem {
+    max-width: 715px;
+    margin: 5px auto 5px auto;
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .button {
+    text-decoration: none;
+  }
+  .background{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0e0d0c+0,0c0b0b+46,363530+65,0c0b0b+100 */
+    background: rgb(14,13,12); /* Old browsers */
+    background: -moz-linear-gradient(45deg, rgba(14,13,12,1) 0%, rgba(12,11,11,1) 46%, rgba(54,53,48,1) 66%, rgba(12,11,11,1) 86%, rgba(12,11,11,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(45deg, rgba(14,13,12,1) 0%,rgba(12,11,11,1) 46%,rgba(54,53,48,1) 66%,rgba(12,11,11,1) 86%,rgba(12,11,11,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(45deg, rgba(14,13,12,1) 0%,rgba(12,11,11,1) 46%,rgba(54,53,48,1) 66%,rgba(12,11,11,1) 86%,rgba(12,11,11,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0d0c', endColorstr='#0c0b0b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+  }
+  h1{
+      margin-bottom: 10px;
+      text-align: center;
+  }
+  .city{
+    color:rgba(0,117,198,1);
+    font-size: 2em;
+    font-weight: bolder;
+    padding-left: 0.5em;
+  }
+  .mainImage{
+      width: 128px;
+  }
+  .mainInfo{
+    text-transform: capitalize;
+    margin:59px auto;
+  }
+  .mainStatus{
+    font-size: 1.2em;
+  }
+  .temp{
+    font-size: 3.6em;
+  }
+  .tempRange{
+    font-size: 1.3em;
+  }
+  .weatherWhite{
+      color:rgb(236, 236, 237);
+  }
+  .block{
+    display: inline-block;
+    vertical-align: top;
+  }
+
+}
+

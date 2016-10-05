@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "demo-sharepoint-framework",
+    "id": "03CA2A15-012C-4caf-AB34-3F421B74B665",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx.spapp"
+  }
+}

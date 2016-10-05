@@ -1,0 +1,7 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "libraryName": "demo-cssp",
+    "libraryId": "3d2785eb-b613-4c73-86c1-bece79d6e1fb",
+    "framework": "none"
+  }
+}

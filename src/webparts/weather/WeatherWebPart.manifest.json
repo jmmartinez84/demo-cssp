@@ -1,0 +1,20 @@
+{
+  "$schema": "../../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "dd0a7d39-010a-4314-817a-5bed56edcb21",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+
+  "preconfiguredEntries": [{
+    "groupId": "dd0a7d39-010a-4314-817a-5bed56edcb21",
+    "group": { "default": "Under Development" },
+    "title": { "default": "Weather forecast" },
+    "description": { "default": "Weather forecast for some cities" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Weather",
+      "city":"Vigo"
+    }
+  }]
+}

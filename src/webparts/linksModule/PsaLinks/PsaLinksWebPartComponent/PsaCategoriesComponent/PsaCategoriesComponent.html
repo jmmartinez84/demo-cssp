@@ -1,0 +1,9 @@
+<ul>
+  <li *ngFor="let category of categories">
+    <span class="flech3"></span>
+    <span class="category">
+      <h4><a>{{category.name}}</a></h4>
+    </span>
+    <psa-links-list [links]=category.links ></psa-links-list>
+  </li>
+</ul>
